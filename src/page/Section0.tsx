@@ -4,23 +4,23 @@ const Section0 = () => {
   return (
       <div>
           
-          <div className="container px-4 mx-auto pt-12">
-              <div className="flex flex-wrap items-center -mx-4">
-                  <div className="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+          <div className=" md:px-4  md:pt-12">
+              <div className="flex flex-wrap items-center md:-mx-4">
+                  <div className="w-full md:w-1/2 md:px-4 mb-6 md:mb-0">
                       <span className="font-semibold text-xs text-blue-400">
 
                       </span>
-                      <h2 className="mt-8 mb-6 lg:mb-12 text-4xl lg:text-5xl font-black">
+                      <h2 className="mt-8 mb-6 lg:mb-12 md:text-4xl text-2xl lg:text-5xl font-black">
                           We are The Brilliants In Terms     Of Digital Marketing
                       </h2>
                       <div className="max-w-lg mb-6 lg:mb-12">
-                          <p className="text-4xl font-bold ">
+                          <p className="md:text-4xl text-2xl font-bold ">
                               Book your 30-minute free strategy call
                           </p>
                       </div>
                       <div className="flex flex-wrap">
                           <a
-                              className="inline-block  rounded-3xl drop-shadow-2xl px-6 py-4 mb-3 mr-4  text-4xl  leading-normal bg-white hover:bg-red-300  transition duration-200 text-black font-black"
+                              className="inline-block  rounded-3xl drop-shadow-2xl md:px-6 md:py-4 mb-3 mr-4  text-4xl  leading-normal bg-white hover:bg-red-300  transition duration-200 text-black font-black"
                               href="#"
                           >
                               Book Now
@@ -29,7 +29,9 @@ const Section0 = () => {
                       </div>
                   </div>
                   <div className="relative w-full md:w-1/2 px-4">
-                      <div className="hidden lg:block lg:absolute top-0 right-0 z-10 lg:mt-28">
+                      <div
+                          data-aos="fade-down "
+                          className="hidden lg:block lg:absolute top-0 right-0 z-10 lg:mt-28">
 
                           <svg xmlns="http://www.w3.org/2000/svg" width="236" height="102" viewBox="0 0 236 102" fill="none">
                               <path d="M0 71.7453C22 61.8295 67 37.7341 71 20.679C76 -0.639951 39.5 -10.06 35 20.679C31.6233 43.7446 35 101.493 83 100.997C131 100.501 180.833 68.7705 208 59.3505" stroke="#DADFE9" stroke-dasharray="4 4" />

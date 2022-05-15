@@ -4,7 +4,9 @@ export const Footer = () => {
             
             <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
-                    <div className="md:max-w-md lg:col-span-2">
+                    <div
+                        data-aos="fade-down"
+                        className="md:max-w-md lg:col-span-2">
                         <a
                             href="/"
                             aria-label="Go home"
@@ -27,10 +29,13 @@ export const Footer = () => {
                                 <rect x="14" y="11" width="7" height="12" />
                             </svg>
                             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                                Company
+                                4-book
                             </span>
                         </a>
-                        <div className="mt-4 lg:max-w-sm">
+                        <div
+                            
+                            data-aos="fade-down"
+                            className="mt-4 lg:max-w-sm">
                             <p className="text-sm text-deep-purple-50">
                                 The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta and Goutam Saha, Managing Director of Excel Technologies Ltd
                             </p>
@@ -42,7 +47,9 @@ export const Footer = () => {
                             <p className="font-semibold tracking-wide text-teal-accent-400">
                                 Category
                             </p>
-                            <ul className="mt-2 space-y-2">
+                            <ul
+                                data-aos="fade-down"
+                                className="mt-2 space-y-2">
                                 <li>
                                     <a
                                         href="/"
@@ -53,6 +60,7 @@ export const Footer = () => {
                                 </li>
                                 <li>
                                     <a
+                                        data-aos="fade-down"
                                         href="/"
                                         className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
                                     >
@@ -77,7 +85,9 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div
+                            data-aos="fade-up"
+                        >
                             <p className="font-semibold tracking-wide text-teal-accent-400">
                                 Cherry
                             </p>
@@ -124,8 +134,12 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
-                            <p className="font-semibold tracking-wide text-teal-accent-400">
+                        <div
+                            data-aos="fade-right"
+                        >
+                            <p
+                            
+                                className="font-semibold tracking-wide text-teal-accent-400">
                                 Apples
                             </p>
                             <ul className="mt-2 space-y-2">
@@ -171,7 +185,9 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div
+                            data-aos="fade-down"
+                        >
                             <p className="font-semibold tracking-wide text-teal-accent-400">
                                 Business
                             </p>

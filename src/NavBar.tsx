@@ -50,7 +50,7 @@ export const NavBar = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span className="ml-2 text-xl font-bold tracking-wide  uppercase">
-                Company
+                4-book
             </span>
            
           </a>
@@ -133,9 +133,9 @@ export const NavBar = () => {
                 </svg>
               </button>
               {isMenuOpen && (
-              <div className="absolute text-white top-0 section left-0 w-full">
-                  <div className="p-5  border rounded shadow-sm">
-                    <div className="flex items-center justify-between mb-4">
+              <div className="absolute sectione   text-white top-0 section left-0 w-full">
+                <div className="p-5   border rounded shadow-sm">
+                  <div className="flex items-center justify-between mb-4">
                       <div>
                         <a
                           href="/"
@@ -159,7 +159,7 @@ export const NavBar = () => {
                             <rect x="14" y="11" width="7" height="12" />
                           </svg>
                           <span className="ml-2 text-xl font-bold tracking-wide  uppercase">
-                            Company
+                          4-book
                           </span>
                         </a>
                       </div>

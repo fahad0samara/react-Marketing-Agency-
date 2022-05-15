@@ -1,4 +1,9 @@
-.section {
+.sectione {
     background: rgb(237, 8, 122);
     background: linear-gradient(-50deg, rgba(20, 18, 19, 1) 50%, rgb(21, 5, 5) 49%, rgba(205, 17, 78, 1) 30%);
+}
+
+.footer {
+    background: rgb(237, 8, 122);
+    background: linear-gradient(5deg, rgba(20, 18, 19, 1) 30%, rgb(20, 18, 19, 1) 49%, rgba(205, 17, 78, 1) 20%);
 }

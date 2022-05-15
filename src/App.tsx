@@ -1,8 +1,12 @@
 
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import { Footer } from "./Footer";
 import './index.css'
 import { NavBar } from "./NavBar";
+import Section1 from "./page/Section1";
+import { Section2 } from "./page/Section2";
+import Section3 from "./page/Section3";
 
 
 function App() {
@@ -17,7 +21,11 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <NavBar/>
+      <NavBar />
+      <Section1/>
+      <Section2 />
+      <Section3 />
+      <Footer/>
     </div>
   );
 }

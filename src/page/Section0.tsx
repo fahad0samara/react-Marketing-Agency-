@@ -3,6 +3,7 @@ import img from "../img/1.png";
 const Section0 = () => {
   return (
       <div>
+          
           <div className="container px-4 mx-auto pt-12">
               <div className="flex flex-wrap items-center -mx-4">
                   <div className="w-full md:w-1/2 px-4 mb-6 md:mb-0">
